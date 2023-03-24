@@ -1,0 +1,18 @@
+version: '3'
+services:
+  train:
+    image: harish1808/phonepaytrain:v1
+    ports:
+      - "8000:80"
+
+
+  movie:
+    image: harish1808/phonepaymovie:v1
+    ports:
+      - "8001:80"
+
+
+  loan:
+    image: harish1808/phonepayloan:v1
+    ports:
+      - "8002:80"
